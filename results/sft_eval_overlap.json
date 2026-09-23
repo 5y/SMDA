@@ -1,0 +1,23 @@
+[
+  {
+    "pair_id": "46082a8b16c9d82ecbf2492beb6079411d0f7e28c9b874e00852019dfb16d1aa",
+    "prompt_id": "a4fa99ed0ef3ce1296807658d7fcca3be90148abcf537c97decc9229521b6222",
+    "label": "harmless_compliance",
+    "source": "alpaca_cleaned",
+    "original_idx": 11.0
+  },
+  {
+    "pair_id": "9d2d707d080de01f6b6b8433780433aae9ef1a1f3bd0fe553b8491e3c4d15741",
+    "prompt_id": "456b19eb4ca2c41a826cb4ff53524a79dcf3330e15f1e59d5cec0e66c1cdd09b",
+    "label": "harmless_compliance",
+    "source": "alpaca_cleaned",
+    "original_idx": 97.0
+  },
+  {
+    "pair_id": "d411ef5ee6d58b09cd41fc5b807dad467748bd53d81e6eadf2cb908e9ebb69bc",
+    "prompt_id": "95eb69085d059039079973bf919909b9318e04c3a7e2f05da0fd93eccdb0b92e",
+    "label": "harmless_compliance",
+    "source": "alpaca_cleaned",
+    "original_idx": 131.0
+  }
+]

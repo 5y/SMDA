@@ -1,0 +1,4 @@
+experiment,n,paper_test_accuracy,cached_reanalysis_test_accuracy,status
+harmful_natural,5326,0.673,0.6697936210131332,different reconstructed split/threshold; not an exact reproduction
+harmful_balanced,3986,0.639,0.6303258145363408,different reconstructed split/threshold; not an exact reproduction
+harmful_harmless,5000,0.696,0.765,different reconstructed split/threshold; not an exact reproduction

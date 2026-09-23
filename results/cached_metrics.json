@@ -1,0 +1,116 @@
+[
+  {
+    "experiment": "harmful_natural",
+    "n": 5326,
+    "alpha": 5.0,
+    "threshold": -28.066124416412578,
+    "train": {
+      "accuracy": 0.6676056338028169,
+      "precision": 0.6948254364089775,
+      "recall": 0.8360840210052514,
+      "f1": 0.7589376915219612
+    },
+    "test": {
+      "accuracy": 0.6697936210131332,
+      "precision": 0.6986128625472888,
+      "recall": 0.8305847076461769,
+      "f1": 0.7589041095890411
+    },
+    "test_majority_baseline": 0.625703564727955
+  },
+  {
+    "experiment": "harmful_balanced",
+    "n": 3986,
+    "alpha": 5.0,
+    "threshold": -25.743159072821875,
+    "train": {
+      "accuracy": 0.6458594730238394,
+      "precision": 0.655310621242485,
+      "recall": 0.6154328732747805,
+      "f1": 0.6347460368812682
+    },
+    "test": {
+      "accuracy": 0.6303258145363408,
+      "precision": 0.6413043478260869,
+      "recall": 0.5914786967418546,
+      "f1": 0.6153846153846154
+    },
+    "test_majority_baseline": 0.5
+  },
+  {
+    "experiment": "harmful_harmless",
+    "n": 5000,
+    "alpha": 5.0,
+    "threshold": -24.851836276604708,
+    "train": {
+      "accuracy": 0.78375,
+      "precision": 0.7081967213114754,
+      "recall": 0.5200642054574639,
+      "f1": 0.5997223507635354
+    },
+    "test": {
+      "accuracy": 0.765,
+      "precision": 0.6681222707423581,
+      "recall": 0.49038461538461536,
+      "f1": 0.5656192236598891
+    },
+    "test_majority_baseline": 0.688
+  },
+  {
+    "experiment": "appendix_seed0",
+    "n": 2000,
+    "alpha": 5.0,
+    "threshold": -28.863852939720275,
+    "train": {
+      "accuracy": 0.66125,
+      "precision": 0.6752738654147105,
+      "recall": 0.8717171717171717,
+      "f1": 0.7610229276895943
+    },
+    "test": {
+      "accuracy": 0.66,
+      "precision": 0.6772151898734177,
+      "recall": 0.8629032258064516,
+      "f1": 0.7588652482269503
+    },
+    "test_majority_baseline": 0.62
+  },
+  {
+    "experiment": "appendix_seed1",
+    "n": 2000,
+    "alpha": 5.0,
+    "threshold": -29.30901768882454,
+    "train": {
+      "accuracy": 0.673125,
+      "precision": 0.6815847395451211,
+      "recall": 0.912573673870334,
+      "f1": 0.7803443931121378
+    },
+    "test": {
+      "accuracy": 0.655,
+      "precision": 0.6735905044510386,
+      "recall": 0.8901960784313725,
+      "f1": 0.7668918918918919
+    },
+    "test_majority_baseline": 0.6375
+  },
+  {
+    "experiment": "appendix_seed2",
+    "n": 2000,
+    "alpha": 5.0,
+    "threshold": -29.090115292298638,
+    "train": {
+      "accuracy": 0.68625,
+      "precision": 0.6935483870967742,
+      "recall": 0.8976143141153081,
+      "f1": 0.7824956672443674
+    },
+    "test": {
+      "accuracy": 0.6475,
+      "precision": 0.6729559748427673,
+      "recall": 0.852589641434263,
+      "f1": 0.7521968365553603
+    },
+    "test_majority_baseline": 0.6275
+  }
+]

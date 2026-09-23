@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-09-23",
+  "artifacts": {
+    "eval_cache": {
+      "repo_id": "DarianNLP/logprob_mda_dataset_NEW",
+      "repo_type": "dataset",
+      "revision": "1e883597b636d290b35690b8a7387630c7d60e12",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "logprob_mda_dataset_NEW.parquet",
+      "sha256": "22edefcb55d22167877e317f52e42acf716a889018f8b91683ef9cf65b889975",
+      "rows": 7826,
+      "download_by_default": true
+    },
+    "feature_labels": {
+      "repo_id": "DarianNLP/sae_feature_labels_NEW",
+      "repo_type": "dataset",
+      "revision": "aef8850b4ebf7480f5943145ae5865fac7c3347e",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "sae_feature_labels_NEW.parquet",
+      "sha256": "2bb97147bbbb4617a9c6cc6749f60840f1a20f644ef24efaef52a16d23c0d24f",
+      "rows": 75,
+      "download_by_default": true
+    },
+    "sft_full": {
+      "repo_id": "DarianNLP/affect_of_removing_misalligned_examples-full",
+      "repo_type": "dataset",
+      "revision": "0636203e98eedcf31ea628dda5721ef98bac4cd2",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "affect_of_removing_misalligned_examples-full.parquet",
+      "sha256": "5fd6446a38f4c1f71f55f7dcea7220d4d1495990160e3ddb68c48a9a0beca42f",
+      "rows": 200,
+      "download_by_default": true
+    },
+    "sft_qual_reference": {
+      "repo_id": "DarianNLP/affect_of_removing_misalligned_examples-qual_removed",
+      "repo_type": "dataset",
+      "revision": "e950e6f6c0899b3f791b1d27cd1d2e1eac79be02",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "affect_of_removing_misalligned_examples-qual_removed.parquet",
+      "sha256": "0be9e2ad3d9ff4e1179cc69de606bf9c55ce1bc0edf34decc94ff5de12cfca07",
+      "rows": 166,
+      "download_by_default": true
+    },
+    "sft_quant_legacy": {
+      "repo_id": "DarianNLP/affect_of_removing_misalligned_examples-quant_removed",
+      "repo_type": "dataset",
+      "revision": "f59be7f5964754cc26d3dd0b1494d995c5677c82",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "affect_of_removing_misalligned_examples-quant_removed.parquet",
+      "sha256": "bb732018e0312741e58b0361cdae348d58b6cee373292f18a059124da29aea23",
+      "rows": 113,
+      "download_by_default": false
+    },
+    "judge_subset": {
+      "repo_id": "DarianNLP/affect_of_removing_misalligned_examples-judge_subset",
+      "repo_type": "dataset",
+      "revision": "c03b399a3f75150f458a92c476aebfb68dea66eb",
+      "filename": "data/train-00000-of-00001.parquet",
+      "local_filename": "affect_of_removing_misalligned_examples-judge_subset.parquet",
+      "sha256": "aae9d1e57b2890a92f4ba10117403300b2876b4a0f21baf97565950a3255ade8",
+      "rows": 200,
+      "download_by_default": true
+    }
+  },
+  "models": {
+    "DarianNLP/sae-llama-3.2-3b-instruct-layer10-safety": {
+      "revision": "fb3268286afda33e71061b92ef6e31c3ce8f687e",
+      "gated": false,
+      "metadata_verified": true,
+      "weights_evaluated": false
+    },
+    "5yhuggin/affect_of_removing_misalligned_examples-quant-corrected-20260830": {
+      "revision": "17d2c9a0320c0b7b3453011f8217f9abda338653",
+      "gated": false,
+      "metadata_verified": true,
+      "weights_evaluated": false
+    },
+    "meta-llama/Llama-3.2-3B-Instruct": {
+      "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+      "gated": "manual",
+      "metadata_verified": true,
+      "weights_evaluated": false
+    },
+    "DarianNLP/affect_of_removing_misalligned_examples-full": {
+      "revision": "0b4f54946403e23fb7b5eb3dc3400d7de05269bd",
+      "gated": false,
+      "metadata_verified": true,
+      "weights_evaluated": false
+    },
+    "DarianNLP/affect_of_removing_misalligned_examples-qual_removed": {
+      "revision": "ab640311cc64ddef90021e613b486f28c30776a8",
+      "gated": false,
+      "metadata_verified": true,
+      "weights_evaluated": false
+    }
+  },
+  "unavailable": [
+    {
+      "repo_id": "DarianNLP/mda_step0_cache_NEW",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "repo_id": "5yhuggin/affect_of_removing_misalligned_examples-quant-corrected-20260830-data",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ]
+}
